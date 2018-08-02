@@ -1,0 +1,31 @@
+=== 1 ===
+%[cluster_url_inform](50)
+    ~[intro?] ~[cluster?] @[cluster] ~[url]
+
+~[intro]
+    what is
+    get
+
+~[cluster]
+    cluster
+
+~[phdp001]
+    phdp001
+    phdp002
+    phba001
+    xhba001
+
+~[PHDP001]
+    PHDP001
+    PHDP002
+    PHBA001
+    XHBA001
+
+@[cluster]
+    ~[phdp001]
+    ~[PHDP001]
+
+~[url]
+    url
+    website
+    link

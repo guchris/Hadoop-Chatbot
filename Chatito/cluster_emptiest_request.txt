@@ -1,0 +1,26 @@
+%[cluster_emptiest_request](50)
+    ~[cluster] ~[with] ~[most] ~[space] ~[available]
+
+~[cluster]
+    cluster
+
+~[with]
+    with
+
+~[most]
+    most
+    greatest
+    largest
+
+~[space]
+    space
+    room
+    capacity
+
+~[available]
+    available
+    free
+    unoccupied
+    empty
+    vacant
+    unused

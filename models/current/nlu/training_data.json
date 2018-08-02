@@ -1,0 +1,7312 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "request",
+            "start": 0,
+            "value": "will loves cheesecake"
+          }
+        ],
+        "text": "will loves cheesecake"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "request",
+            "value": "courage to care"
+          }
+        ],
+        "text": "courage to care"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "request",
+            "start": 0,
+            "value": "who is the president"
+          }
+        ],
+        "text": "who is the president"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "request",
+            "value": "where is jordan"
+          }
+        ],
+        "text": "where is jordan"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "request",
+            "start": 0,
+            "value": "water is very healthy"
+          }
+        ],
+        "text": "water is very healthy"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "entity": "request",
+            "value": "what is the meaning of life"
+          }
+        ],
+        "text": "what is the meaning of life"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "request",
+            "value": "i love python"
+          }
+        ],
+        "text": "i love python"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "request",
+            "start": 0,
+            "value": "i hate donald trump"
+          }
+        ],
+        "text": "i hate donald trump"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "request",
+            "start": 0,
+            "value": "i lost my credit card"
+          }
+        ],
+        "text": "i lost my credit card"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "request",
+            "start": 0,
+            "value": "i love pizza"
+          }
+        ],
+        "text": "i love pizza"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "request",
+            "value": "give me the news"
+          }
+        ],
+        "text": "give me the news"
+      },
+      {
+        "intent": "default",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "request",
+            "start": 0,
+            "value": "lotion is good for the skin"
+          }
+        ],
+        "text": "lotion is good for the skin"
+      },
+      {
+        "intent": "help",
+        "text": "help me"
+      },
+      {
+        "intent": "help",
+        "text": "what are your functions"
+      },
+      {
+        "intent": "help",
+        "text": "help"
+      },
+      {
+        "intent": "help",
+        "text": "options"
+      },
+      {
+        "intent": "help",
+        "text": "what commands can i use"
+      },
+      {
+        "intent": "help",
+        "text": "i need help"
+      },
+      {
+        "intent": "help",
+        "text": "list commands"
+      },
+      {
+        "intent": "help",
+        "text": "support"
+      },
+      {
+        "intent": "help",
+        "text": "how do you work"
+      },
+      {
+        "intent": "help",
+        "text": "what can I do"
+      },
+      {
+        "intent": "help",
+        "text": "service"
+      },
+      {
+        "intent": "help",
+        "text": "assist"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "dear sir"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "bye",
+        "text": "cya later"
+      },
+      {
+        "intent": "bye",
+        "text": "adieu"
+      },
+      {
+        "intent": "bye",
+        "text": "so long"
+      },
+      {
+        "intent": "bye",
+        "text": "end"
+      },
+      {
+        "intent": "bye",
+        "text": "have a good one"
+      },
+      {
+        "intent": "bye",
+        "text": "cya"
+      },
+      {
+        "intent": "bye",
+        "text": "cheerio"
+      },
+      {
+        "intent": "bye",
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "stop"
+      },
+      {
+        "intent": "bye",
+        "text": "ciao"
+      },
+      {
+        "intent": "bye",
+        "text": "adios"
+      },
+      {
+        "intent": "bye",
+        "text": "farewell"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop entire production size"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop complete production capacity"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop all production magnitude"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop overall production size"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop whole production capacity"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop total production magnitude"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop production size"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop full production capacity"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop full production magnitude"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop production capacity"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop all production size"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop overall production magnitude"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop whole production magnitude"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop overall production capacity"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop total production size"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop total production capacity"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop complete production magnitude"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop entire production capacity"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop production magnitude"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop full production size"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop complete production size"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop all production capacity"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop entire production magnitude"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "hadoop whole production size"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "whole production magnitude of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "entire production size of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "production capacity of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "complete production magnitude of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "overall production size of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "total production capacity of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "all production capacity of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "full production size of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "production magnitude of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "total production magnitude of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "complete production capacity of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "entire production magnitude of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "all production magnitude of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "complete production size of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "whole production capacity of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "overall production capacity of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "total production size of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "full production magnitude of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "overall production magnitude of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "production size of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "entire production capacity of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "all production size of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "whole production size of hadoop"
+      },
+      {
+        "intent": "hadoop_production_capacity_request",
+        "text": "full production capacity of hadoop"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "get data on comprehensive clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "obtain report of entire clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "lookup status of aggregate clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "find health of all clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "retrieve complete clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "info on total clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "search report of whole clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "query info on overall clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "get data on overall clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "search health of aggregate clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "query total clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "obtain status of whole clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "health of comprehensive clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "retrieve report of entire clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "lookup status of all clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "find info on complete clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "retrieve data on total clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "query whole clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "obtain status of entire clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "search all clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "health of aggregate clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "lookup report of comprehensive clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "find info on overall clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "get data on complete clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "get report of overall clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "obtain info on aggregate clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "lookup status of comprehensive clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "whole clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "search health of complete clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "query data on all clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "retrieve entire clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "find info on total clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "search data on all clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "query health of overall clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "find report of entire clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "retrieve status of total clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "comprehensive clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "get status of complete clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "lookup report of whole clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "retrieve health of all clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "find data on entire clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "query health of complete clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "status of total clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "lookup info on aggregate clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "obtain data on overall clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "get comprehensive clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "find overall clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "retrieve status of entire clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "report of whole clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "get all clusters"
+      },
+      {
+        "intent": "cluster_statuses_request",
+        "text": "query info on comprehensive clusters"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest room available"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest space unused"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most capacity unoccupied"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most capacity free"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest space empty"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest room vacant"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most room empty"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest space free"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest capacity available"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest space unused"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest room vacant"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most room available"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest space unoccupied"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest capacity unused"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest capacity vacant"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest room free"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most space empty"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most capacity empty"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest room free"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest space vacant"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest capacity unoccupied"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most room free"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest capacity available"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most room unoccupied"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest capacity unused"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest room empty"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most space free"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most room unused"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest space vacant"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest capacity empty"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest capacity unoccupied"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most space vacant"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest room empty"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest space available"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest capacity vacant"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest space available"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest capacity free"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most space available"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest space unoccupied"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest room available"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest room unoccupied"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest capacity free"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most space unoccupied"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with largest room unused"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest capacity empty"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most capacity vacant"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest room unused"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most capacity unused"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with most space unused"
+      },
+      {
+        "intent": "cluster_emptiest_request",
+        "text": "cluster with greatest space free"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least capacity vacant"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest space unoccupied"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest room empty"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest room unused"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least space available"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest capacity free"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest capacity unoccupied"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest space empty"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least room free"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest capacity unused"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest space available"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least room vacant"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest capacity free"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least space unused"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest room vacant"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least room empty"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest space unoccupied"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest capacity available"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest capacity empty"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest room unoccupied"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest room free"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least capacity empty"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest space vacant"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least capacity available"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest space available"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest space unused"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least space vacant"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest room unused"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest capacity available"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least capacity unoccupied"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest room free"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest capacity vacant"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest room unoccupied"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest capacity empty"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest space empty"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least capacity unused"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest room vacant"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest space vacant"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest room available"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest room empty"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest space free"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest space unused"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least space unoccupied"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest capacity unused"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least space free"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least room unused"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with tiniest capacity vacant"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least room unoccupied"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with smallest capacity unoccupied"
+      },
+      {
+        "intent": "cluster_fullest_request",
+        "text": "cluster with least capacity free"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "query status of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "obtain data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "cluster info"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "lookup cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "tell me about health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "get cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "retrieve data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "search info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "get health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "find status of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "give me data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "tell me about info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "obtain health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "what is the data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "lookup health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "get status of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "give me cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "get info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "search data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "query health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "retrieve info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "obtain status of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "what is the status of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "tell me about data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "query cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "search health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "get data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "tell me about status of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "obtain cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "find data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "what is the health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "retrieve status of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "give me info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "lookup status of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "tell me about cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "find info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "search cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "give me health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "obtain info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "search status of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "lookup data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "find health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "retrieve health of cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "query info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "query data on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "what is the info on cluster"
+      },
+      {
+        "intent": "cluster_status_request",
+        "text": "find cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "data on bhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "find info on xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "phdp002"
+          }
+        ],
+        "text": "get health of phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "what is the xhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp001"
+          }
+        ],
+        "text": "lookup status of phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "xhba001"
+          }
+        ],
+        "text": "tell me about data on xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phdp001"
+          }
+        ],
+        "text": "obtain info on phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "cluster",
+            "start": 6,
+            "value": "phba001"
+          }
+        ],
+        "text": "query phba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "cluster",
+            "start": 19,
+            "value": "phdp001"
+          }
+        ],
+        "text": "retrieve health of phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phdp002"
+          }
+        ],
+        "text": "give me status of phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhba001"
+          }
+        ],
+        "text": "get health of xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "search status of bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phba001"
+          }
+        ],
+        "text": "search info on phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "get xhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "phdp001"
+          }
+        ],
+        "text": "give me data on phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "find status of xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "cluster",
+            "start": 7,
+            "value": "xhba001"
+          }
+        ],
+        "text": "obtain xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "what is the health of xhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phdp001"
+          }
+        ],
+        "text": "lookup info on phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "phba001"
+          }
+        ],
+        "text": "get data on phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cluster",
+            "start": 24,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "tell me about health of xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phdp002"
+          }
+        ],
+        "text": "status of phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "retrieve bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "phdp001"
+          }
+        ],
+        "text": "query info on phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhba001"
+          }
+        ],
+        "text": "query data on xhba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cluster",
+            "start": 24,
+            "value": "phba001"
+          }
+        ],
+        "text": "tell me about status of phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp001"
+          }
+        ],
+        "text": "retrieve info on phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "get data on xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "give me bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp002"
+          }
+        ],
+        "text": "search health of phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "obtain health of xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phdp001"
+          }
+        ],
+        "text": "status of phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "cluster",
+            "start": 5,
+            "value": "phdp002"
+          }
+        ],
+        "text": "find phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "cluster",
+            "start": 20,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "what is the data on bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "xhba001"
+          }
+        ],
+        "text": "get xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "tell me about data on xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phba001"
+          }
+        ],
+        "text": "give me health of phba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "get status of xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "phdp001"
+          }
+        ],
+        "text": "query data on phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "phdp001"
+          }
+        ],
+        "text": "find info on phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "status of bhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "xhba001"
+          }
+        ],
+        "text": "get xhba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "phba001"
+          }
+        ],
+        "text": "retrieve phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phdp002"
+          }
+        ],
+        "text": "lookup data on phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "search status of xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "xhba001"
+          }
+        ],
+        "text": "give me info on xhba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "query health of xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "get health of bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "cluster",
+            "start": 19,
+            "value": "phdp001"
+          }
+        ],
+        "text": "retrieve status of phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "phba001"
+          }
+        ],
+        "text": "find info on phba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phdp002"
+          }
+        ],
+        "text": "obtain data on phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "phdp001"
+          }
+        ],
+        "text": "what is the phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "search info on xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "tell me about xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "lookup data on xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phdp001"
+          }
+        ],
+        "text": "status of phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhba001"
+          }
+        ],
+        "text": "get health of xhba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp001"
+          }
+        ],
+        "text": "search status of phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "get bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "phdp002"
+          }
+        ],
+        "text": "find data on phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phba001"
+          }
+        ],
+        "text": "health of phba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "phdp002"
+          }
+        ],
+        "text": "get info on phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "query info on xhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "cluster",
+            "start": 19,
+            "value": "phdp001"
+          }
+        ],
+        "text": "retrieve status of phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cluster",
+            "start": 24,
+            "value": "xhba001"
+          }
+        ],
+        "text": "tell me about health of xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "cluster",
+            "start": 7,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "lookup xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp001"
+          }
+        ],
+        "text": "obtain status of phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phba001"
+          }
+        ],
+        "text": "give me health of phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phba001"
+          }
+        ],
+        "text": "info on phba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp001"
+          }
+        ],
+        "text": "retrieve data on phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "tell me about xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "cluster",
+            "start": 7,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "lookup xhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "get info on bhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "phdp001"
+          }
+        ],
+        "text": "what is the status of phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phdp002"
+          }
+        ],
+        "text": "find health of phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "xhba001"
+          }
+        ],
+        "text": "give me data on xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp002"
+          }
+        ],
+        "text": "search status of phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "phdp001"
+          }
+        ],
+        "text": "query data on phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "get bhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "obtain info on xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "cluster xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "cluster phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phdp001"
+          }
+        ],
+        "text": "find health of phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "health of xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "phba001"
+          }
+        ],
+        "text": "tell me about data on phba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "xhba001"
+          }
+        ],
+        "text": "get info on xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phdp001"
+          }
+        ],
+        "text": "give me status of phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "what is the bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "phdp002"
+          }
+        ],
+        "text": "get phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phba001"
+          }
+        ],
+        "text": "search data on phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhba001"
+          }
+        ],
+        "text": "lookup status of xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "query health of xhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "cluster",
+            "start": 7,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "obtain xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "get health of xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "retrieve data on xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phba001"
+          }
+        ],
+        "text": "status of phba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "phdp001"
+          }
+        ],
+        "text": "tell me about data on phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "phdp002"
+          }
+        ],
+        "text": "what is the health of phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "cluster",
+            "start": 7,
+            "value": "phdp001"
+          }
+        ],
+        "text": "obtain phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "query info on bhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhba001"
+          }
+        ],
+        "text": "search health of xhba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "phdp002"
+          }
+        ],
+        "text": "give me data on phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "cluster",
+            "start": 7,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "lookup xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "search info on bhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cluster",
+            "start": 24,
+            "value": "phdp001"
+          }
+        ],
+        "text": "tell me about health of phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "phba001"
+          }
+        ],
+        "text": "get info on phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "cluster",
+            "start": 7,
+            "value": "phdp001"
+          }
+        ],
+        "text": "lookup phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phba001"
+          }
+        ],
+        "text": "retrieve data on phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "obtain status of xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "xhba001"
+          }
+        ],
+        "text": "data on xhba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phdp001"
+          }
+        ],
+        "text": "find status of phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp002"
+          }
+        ],
+        "text": "give me phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "tell me about info on bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "phba001"
+          }
+        ],
+        "text": "query data on phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "what is the status of xhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "cluster",
+            "start": 7,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "obtain xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "xhba001"
+          }
+        ],
+        "text": "find health of xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp001"
+          }
+        ],
+        "text": "give me phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phba001"
+          }
+        ],
+        "text": "search data on phba001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "phdp001"
+          }
+        ],
+        "text": "get status of phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "phdp001"
+          }
+        ],
+        "text": "phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "phdp002"
+          }
+        ],
+        "text": "lookup data on phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "obtain info on bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhba001"
+          }
+        ],
+        "text": "get status of xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cluster",
+            "start": 24,
+            "value": "phdp002"
+          }
+        ],
+        "text": "tell me about health of phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "xhba001"
+          }
+        ],
+        "text": "info on xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "cluster",
+            "start": 20,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "what is the data on xhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "get health of xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "search data on bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "phdp002"
+          }
+        ],
+        "text": "what is the phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "phdp001"
+          }
+        ],
+        "text": "get status of phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "lookup info on bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "health of xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "phdp001"
+          }
+        ],
+        "text": "give me info on phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "obtain data on xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "cluster",
+            "start": 5,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "find xhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp001"
+          }
+        ],
+        "text": "search health of phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "cluster",
+            "start": 6,
+            "value": "phdp002"
+          }
+        ],
+        "text": "query phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "cluster",
+            "start": 14,
+            "value": "phba001"
+          }
+        ],
+        "text": "get status of phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "give me health of bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "phdp001"
+          }
+        ],
+        "text": "get data on phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cluster",
+            "start": 15,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "lookup info on xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "cluster",
+            "start": 7,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "obtain xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "cluster",
+            "start": 20,
+            "value": "phdp001"
+          }
+        ],
+        "text": "what is the data on phdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "tell me about info on xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "search health of bhdp001 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhba001"
+          }
+        ],
+        "text": "retrieve data on xhba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "cluster",
+            "start": 6,
+            "value": "phba001"
+          }
+        ],
+        "text": "query phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phdp002"
+          }
+        ],
+        "text": "status of phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "phdp002"
+          }
+        ],
+        "text": "find data on phdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cluster",
+            "start": 22,
+            "value": "phdp001"
+          }
+        ],
+        "text": "what is the status of phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "retrieve info on xhdp002 cluster"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "phdp002"
+          }
+        ],
+        "text": "phdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "bhdp001"
+          }
+        ],
+        "text": "bhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "xhdp001"
+          }
+        ],
+        "text": "xhdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "xhdp002"
+          }
+        ],
+        "text": "xhdp002"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "phba001"
+          }
+        ],
+        "text": "phba001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "phdp001"
+          }
+        ],
+        "text": "phdp001"
+      },
+      {
+        "intent": "cluster_status_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "xhba001"
+          }
+        ],
+        "text": "xhba001"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "info on namenode"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "what is the namenode availability"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "get info on namenode"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "get info on namenode"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did namenode been active"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has name node been accessible"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "NameNode online"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has name node operating"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of namenode been free"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has NameNode been alive"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has NameNode been up"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did Name Node available"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of NameNode been functioning"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "namenode running"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has Name Node alive"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did name node been functioning"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "namenode operating"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has Name Node been available"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did NameNode free"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of name node been active"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of Name Node online"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "NameNode been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did namenode accessible"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has name node been running"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "name node accessible"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of NameNode been online"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has Name Node running"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did NameNode been available"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of name node functioning"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has namenode been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "Name Node alive"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has NameNode operating"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did name node been free"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of Name Node been operating"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "namenode functioning"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "NameNode accessible"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did name node been online"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of namenode active"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has Name Node been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "namenode been free"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of Name Node alive"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has NameNode been available"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did name node running"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did Name Node operating"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "name node been functioning"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has NameNode been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of namenode alive"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has Name Node been accessible"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of name node running"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "namenode been available"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "NameNode active"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "how long has name node been online"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "when did namenode been online"
+      },
+      {
+        "intent": "cluster_nn_started_request",
+        "text": "uptime of Name Node active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "phdp001"
+          }
+        ],
+        "text": "how long has cluster phdp001 NameNode active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "when did XHBA001 name node been online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "xhba001"
+          }
+        ],
+        "text": "uptime of xhba001 namenode been functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "cluster PHBA001 Name Node running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "when did PHDP002 NameNode been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phba001"
+          }
+        ],
+        "text": "uptime of cluster phba001 namenode operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "phdp002"
+          }
+        ],
+        "text": "how long has cluster phdp002 name node available"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "PHDP001 Name Node been accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "xhba001"
+          }
+        ],
+        "text": "how long has cluster xhba001 Name Node been free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "uptime of PHBA001 NameNode alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "when did cluster PHDP001 namenode been operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "phdp001"
+          }
+        ],
+        "text": "phdp001 name node active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "when did XHBA001 name node uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phba001"
+          }
+        ],
+        "text": "cluster phba001 Name Node been online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phdp002"
+          }
+        ],
+        "text": "uptime of cluster phdp002 namenode alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "how long has PHDP002 NameNode been available"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "cluster PHDP001 NameNode been accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "phdp001"
+          }
+        ],
+        "text": "how long has phdp001 namenode free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "phdp002"
+          }
+        ],
+        "text": "when did phdp002 name node running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "uptime of cluster PHBA001 Name Node been functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "xhba001"
+          }
+        ],
+        "text": "cluster xhba001 namenode been accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "how long has PHDP002 name node available"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phba001"
+          }
+        ],
+        "text": "uptime of phba001 Name Node been running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "when did cluster XHBA001 NameNode active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "phdp001"
+          }
+        ],
+        "text": "how long has cluster phdp001 Name Node been functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "PHDP001 name node alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhba001"
+          }
+        ],
+        "text": "when did cluster xhba001 NameNode uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "uptime of XHBA001 namenode been free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "phba001"
+          }
+        ],
+        "text": "when did phba001 NameNode been operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "how long has cluster PHDP002 name node online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp002"
+          }
+        ],
+        "text": "cluster phdp002 Name Node been active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "uptime of PHBA001 namenode uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "cluster PHBA001 namenode operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phba001"
+          }
+        ],
+        "text": "uptime of phba001 NameNode been functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "phdp002"
+          }
+        ],
+        "text": "how long has phdp002 Name Node been accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "when did cluster XHBA001 name node alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "xhba001"
+          }
+        ],
+        "text": "how long has cluster xhba001 Name Node been running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "uptime of PHDP002 namenode online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "PHDP001 NameNode been free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp001"
+          }
+        ],
+        "text": "when did cluster phdp001 name node available"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "phdp002"
+          }
+        ],
+        "text": "how long has phdp002 NameNode been operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "uptime of cluster XHBA001 name node active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "xhba001"
+          }
+        ],
+        "text": "when did cluster xhba001 namenode functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "PHDP001 Name Node been running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phdp001"
+          }
+        ],
+        "text": "uptime of phdp001 NameNode accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "how long has cluster PHDP002 Name Node been online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "phba001"
+          }
+        ],
+        "text": "when did phba001 name node been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "cluster PHBA001 namenode alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "phdp002"
+          }
+        ],
+        "text": "how long has cluster phdp002 Name Node available"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "PHDP002 name node been free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phdp001"
+          }
+        ],
+        "text": "uptime of cluster phdp001 NameNode been operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "when did PHDP001 namenode functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "how long has PHBA001 NameNode been alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phba001"
+          }
+        ],
+        "text": "when did cluster phba001 name node available"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "xhba001"
+          }
+        ],
+        "text": "uptime of xhba001 namenode been free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "cluster XHBA001 Name Node active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "xhba001"
+          }
+        ],
+        "text": "how long has cluster xhba001 NameNode accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "PHBA001 name node been running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp002"
+          }
+        ],
+        "text": "when did cluster phdp002 Name Node online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "uptime of PHDP001 namenode been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "when did XHBA001 Name Node been alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "phba001"
+          }
+        ],
+        "text": "how long has cluster phba001 NameNode running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phdp001"
+          }
+        ],
+        "text": "uptime of phdp001 name node functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "cluster PHDP002 namenode been accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "cluster XHBA001 Name Node online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "phdp002"
+          }
+        ],
+        "text": "when did phdp002 name node been active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "uptime of PHDP002 namenode been available"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "phdp001"
+          }
+        ],
+        "text": "how long has cluster phdp001 NameNode uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "uptime of cluster PHBA001 namenode been free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "xhba001"
+          }
+        ],
+        "text": "when did xhba001 name node operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "PHDP001 NameNode operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "phba001"
+          }
+        ],
+        "text": "how long has cluster phba001 Name Node been alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phdp001"
+          }
+        ],
+        "text": "uptime of cluster phdp001 namenode been active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "when did PHBA001 Name Node free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "phba001"
+          }
+        ],
+        "text": "how long has phba001 name node been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "cluster PHDP002 NameNode functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "xhba001"
+          }
+        ],
+        "text": "uptime of xhba001 namenode online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "cluster XHBA001 NameNode been available"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "how long has cluster PHDP001 name node been accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "phdp002"
+          }
+        ],
+        "text": "when did phdp002 Name Node running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "phba001"
+          }
+        ],
+        "text": "uptime of phba001 NameNode been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "cluster",
+            "start": 21,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "how long has cluster PHBA001 Name Node active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "when did PHDP001 namenode been online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp002"
+          }
+        ],
+        "text": "cluster phdp002 name node running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "how long has XHBA001 NameNode been operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "xhba001"
+          }
+        ],
+        "text": "uptime of cluster xhba001 namenode free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "when did PHDP002 Name Node been functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp001"
+          }
+        ],
+        "text": "cluster phdp001 name node accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "how long has XHBA001 name node alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phba001"
+          }
+        ],
+        "text": "cluster phba001 namenode been available"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "when did PHDP002 NameNode been running"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phdp001"
+          }
+        ],
+        "text": "uptime of cluster phdp001 Name Node free"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "cluster",
+            "start": 9,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "when did PHDP001 Name Node been uptime"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cluster",
+            "start": 18,
+            "value": "phdp002"
+          }
+        ],
+        "text": "uptime of cluster phdp002 name node functioning"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "xhba001"
+          }
+        ],
+        "text": "how long has xhba001 namenode operating"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "cluster PHBA001 NameNode been alive"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phba001"
+          }
+        ],
+        "text": "cluster phba001 namenode been accessible"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cluster",
+            "start": 13,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "how long has PHDP001 name node online"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "cluster",
+            "start": 10,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "uptime of XHBA001 Name Node active"
+      },
+      {
+        "intent": "cluster_nn_started_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cluster",
+            "start": 17,
+            "value": "phdp002"
+          }
+        ],
+        "text": "when did cluster phdp002 NameNode been available"
+      },
+      {
+        "intent": "cluster_url_request",
+        "text": "get cluster url"
+      },
+      {
+        "intent": "cluster_url_request",
+        "text": "what is cluster website"
+      },
+      {
+        "intent": "cluster_url_request",
+        "text": "cluster link"
+      },
+      {
+        "intent": "cluster_url_request",
+        "text": "get cluster link"
+      },
+      {
+        "intent": "cluster_url_request",
+        "text": "cluster url"
+      },
+      {
+        "intent": "cluster_url_request",
+        "text": "get cluster website"
+      },
+      {
+        "intent": "cluster_url_request",
+        "text": "what is cluster link"
+      },
+      {
+        "intent": "cluster_url_request",
+        "text": "cluster website"
+      },
+      {
+        "intent": "cluster_url_request",
+        "text": "what is cluster url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "what is cluster PHDP002 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "xhba001"
+          }
+        ],
+        "text": "xhba001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "get cluster PHBA001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "phba001"
+          }
+        ],
+        "text": "get phba001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "what is XHBA001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp002"
+          }
+        ],
+        "text": "cluster phdp002 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "get PHDP001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp001"
+          }
+        ],
+        "text": "cluster phdp001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "what is PHBA001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "phdp001"
+          }
+        ],
+        "text": "what is cluster phdp001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phba001"
+          }
+        ],
+        "text": "cluster phba001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "what is cluster XHBA001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "phdp002"
+          }
+        ],
+        "text": "get phdp002 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "get cluster PHDP002 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "xhba001"
+          }
+        ],
+        "text": "what is xhba001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "cluster PHDP002 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "phdp001"
+          }
+        ],
+        "text": "get cluster phdp001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "PHDP001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "what is cluster PHBA001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "phba001"
+          }
+        ],
+        "text": "get phba001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "what is XHBA001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "cluster PHBA001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "phdp001"
+          }
+        ],
+        "text": "get phdp001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "what is PHDP001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp002"
+          }
+        ],
+        "text": "cluster phdp002 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "what is XHBA001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "xhba001"
+          }
+        ],
+        "text": "get cluster xhba001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "PHDP002"
+          }
+        ],
+        "text": "what is PHDP002 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "phba001"
+          }
+        ],
+        "text": "get cluster phba001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "cluster XHBA001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp001"
+          }
+        ],
+        "text": "what is phdp001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "phdp002"
+          }
+        ],
+        "text": "phdp002 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "what is cluster PHDP001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phdp001"
+          }
+        ],
+        "text": "cluster phdp001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "get PHBA001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "phdp002"
+          }
+        ],
+        "text": "phdp002 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "get cluster XHBA001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phba001"
+          }
+        ],
+        "text": "what is phba001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "xhba001"
+          }
+        ],
+        "text": "cluster xhba001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "xhba001"
+          }
+        ],
+        "text": "cluster xhba001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "phdp002"
+          }
+        ],
+        "text": "what is cluster phdp002 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "get XHBA001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "PHDP001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "phdp001"
+          }
+        ],
+        "text": "what is cluster phdp001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cluster",
+            "start": 12,
+            "value": "xhba001"
+          }
+        ],
+        "text": "get cluster xhba001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "cluster",
+            "start": 0,
+            "value": "PHDP001"
+          }
+        ],
+        "text": "PHDP001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "PHBA001"
+          }
+        ],
+        "text": "what is cluster PHBA001 link"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "cluster",
+            "start": 8,
+            "value": "phba001"
+          }
+        ],
+        "text": "cluster phba001 website"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "cluster",
+            "start": 4,
+            "value": "XHBA001"
+          }
+        ],
+        "text": "get XHBA001 url"
+      },
+      {
+        "intent": "cluster_url_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cluster",
+            "start": 16,
+            "value": "phdp002"
+          }
+        ],
+        "text": "what is cluster phdp002 website"
+      },
+      {
+        "intent": "databases_request",
+        "text": "retrieve overall databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "complete databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "get whole databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "obtain all databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "lookup total databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "find aggregate databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "search entire databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "query comprehensive databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "lookup aggregate databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "retrieve total databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "get all databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "search complete databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "query entire databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "comprehensive databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "find overall databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "obtain whole databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "obtain aggregate databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "get entire databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "lookup all databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "find whole databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "query total databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "search overall databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "retrieve complete databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "total databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "query aggregate databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "obtain entire databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "get comprehensive databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "find total databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "entire databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "retrieve all databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "query overall databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "get complete databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "search comprehensive databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "query all databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "obtain overall databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "retrieve aggregate databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "lookup entire databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "find complete databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "search aggregate databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "overall databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "get aggregate databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "find comprehensive databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "whole databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "search all databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "retrieve whole databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "find all databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "obtain comprehensive databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "query whole databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "all databases"
+      },
+      {
+        "intent": "databases_request",
+        "text": "retrieve entire databases"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "database specifics"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "retrieve database data"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "obtain database details"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "find database info"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "search database report"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "lookup database particulars"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "get database report"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "query database data"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "find database specifics"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "database info"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "query database details"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "search database particulars"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "retrieve database report"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "obtain database specifics"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "get database details"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "find database data"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "retrieve database details"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "obtain database info"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "get database particulars"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "lookup database specifics"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "retrieve database specifics"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "get database info"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "obtain database report"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "search database details"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "database particulars"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "get database data"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "query database info"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "find database particulars"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "lookup database report"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "database report"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "query database specifics"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "obtain database data"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "search database specifics"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "search database info"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "get database specifics"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "database details"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "search database data"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "retrieve database particulars"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "lookup database info"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "find database details"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "database data"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "query database particulars"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "find database report"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "lookup database data"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "query database report"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "obtain database particulars"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "retrieve database info"
+      },
+      {
+        "intent": "database_specifics_request",
+        "text": "lookup database details"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "database",
+            "start": 17,
+            "value": "prj_db_metadata"
+          }
+        ],
+        "text": "give a report on prj_db_metadata dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "database",
+            "start": 14,
+            "value": "priem"
+          }
+        ],
+        "text": "query info on priem database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "database",
+            "start": 4,
+            "value": "predr"
+          }
+        ],
+        "text": "get predr"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 15,
+            "value": "sbaaud004"
+          }
+        ],
+        "text": "list tables in sbaaud004 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "database",
+            "start": 14,
+            "value": "gaweblogs"
+          }
+        ],
+        "text": "show info for gaweblogs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "database",
+            "start": 5,
+            "value": "fail_issue"
+          }
+        ],
+        "text": "find fail_issue dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "database",
+            "start": 14,
+            "value": "prj_eqd_logs"
+          }
+        ],
+        "text": "get status of prj_eqd_logs db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "database",
+            "start": 16,
+            "value": "prcreweff"
+          }
+        ],
+        "text": "obtain info for prcreweff database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "database",
+            "start": 15,
+            "value": "xtst_prj_edr"
+          }
+        ],
+        "text": "show tables in xtst_prj_edr db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "database",
+            "start": 19,
+            "value": "prj_mnfm_perf"
+          }
+        ],
+        "text": "what tables are in prj_mnfm_perf database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "database",
+            "start": 15,
+            "value": "usr_igen910"
+          }
+        ],
+        "text": "find report of usr_igen910"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "database",
+            "start": 7,
+            "value": "sbiots021"
+          }
+        ],
+        "text": "search sbiots021 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "database",
+            "start": 14,
+            "value": "prj_ems_logs"
+          }
+        ],
+        "text": "tell me about prj_ems_logs dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "database",
+            "start": 6,
+            "value": "prj_dag"
+          }
+        ],
+        "text": "query prj_dag"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "database",
+            "start": 12,
+            "value": "usr_idma075"
+          }
+        ],
+        "text": "get data on usr_idma075 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "database",
+            "start": 7,
+            "value": "usr_igen520"
+          }
+        ],
+        "text": "lookup usr_igen520 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "database",
+            "start": 9,
+            "value": "prj_bos"
+          }
+        ],
+        "text": "retrieve prj_bos dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "database",
+            "start": 15,
+            "value": "recoverydb"
+          }
+        ],
+        "text": "lookup data on recoverydb database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 17,
+            "value": "prj_edr"
+          }
+        ],
+        "text": "retrieve info on prj_edr db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "database",
+            "start": 7,
+            "value": "usr_igen890"
+          }
+        ],
+        "text": "obtain usr_igen890"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_performance"
+          }
+        ],
+        "text": "prj_performance dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "database",
+            "start": 7,
+            "value": "usr_iots193"
+          }
+        ],
+        "text": "obtain usr_iots193 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 14,
+            "value": "prj_tdperf"
+          }
+        ],
+        "text": "query info on prj_tdperf db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "database",
+            "start": 19,
+            "value": "dhdp400test"
+          }
+        ],
+        "text": "what tables are in dhdp400test"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "database",
+            "start": 0,
+            "value": "prftm"
+          }
+        ],
+        "text": "prftm db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "database",
+            "start": 17,
+            "value": "sbigen566"
+          }
+        ],
+        "text": "give a report on sbigen566 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "database",
+            "start": 15,
+            "value": "prdoc"
+          }
+        ],
+        "text": "find report of prdoc dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "database",
+            "start": 14,
+            "value": "usr_igen723"
+          }
+        ],
+        "text": "tell me about usr_igen723"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "database",
+            "start": 14,
+            "value": "gadbmeta"
+          }
+        ],
+        "text": "show info for gadbmeta db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "database",
+            "start": 7,
+            "value": "prede"
+          }
+        ],
+        "text": "lookup prede dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "database",
+            "start": 17,
+            "value": "sbfpan320"
+          }
+        ],
+        "text": "retrieve info on sbfpan320"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "database",
+            "start": 16,
+            "value": "sbxcon256"
+          }
+        ],
+        "text": "obtain info for sbxcon256 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "database",
+            "start": 15,
+            "value": "usr_idma076"
+          }
+        ],
+        "text": "show tables in usr_idma076 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "database",
+            "start": 4,
+            "value": "presbcore"
+          }
+        ],
+        "text": "get presbcore"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "database",
+            "start": 7,
+            "value": "sbclass"
+          }
+        ],
+        "text": "search sbclass db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "database",
+            "start": 14,
+            "value": "prrsbi"
+          }
+        ],
+        "text": "get status of prrsbi database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "database",
+            "start": 15,
+            "value": "prenforcer"
+          }
+        ],
+        "text": "lookup data on prenforcer"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "database",
+            "start": 6,
+            "value": "usr_idma078"
+          }
+        ],
+        "text": "query usr_idma078 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "database",
+            "start": 15,
+            "value": "usr_igen777"
+          }
+        ],
+        "text": "list tables in usr_igen777 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "database",
+            "start": 5,
+            "value": "failover_issue"
+          }
+        ],
+        "text": "find failover_issue dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "database",
+            "start": 9,
+            "value": "prebzmobile"
+          }
+        ],
+        "text": "retrieve prebzmobile db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "database",
+            "start": 12,
+            "value": "pramo"
+          }
+        ],
+        "text": "get data on pramo dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "database",
+            "start": 17,
+            "value": "usr_idma077"
+          }
+        ],
+        "text": "retrieve info on usr_idma077 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "database",
+            "start": 14,
+            "value": "usr_igen058"
+          }
+        ],
+        "text": "tell me about usr_igen058"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "database",
+            "start": 0,
+            "value": "test"
+          }
+        ],
+        "text": "test db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 15,
+            "value": "sbosda187"
+          }
+        ],
+        "text": "lookup data on sbosda187"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "database",
+            "start": 19,
+            "value": "prj_obi_perf"
+          }
+        ],
+        "text": "what tables are in prj_obi_perf database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "database",
+            "start": 7,
+            "value": "prj_railinc"
+          }
+        ],
+        "text": "obtain prj_railinc dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "database",
+            "start": 15,
+            "value": "prj_defects2"
+          }
+        ],
+        "text": "list tables in prj_defects2 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "database",
+            "start": 16,
+            "value": "prj_road_xing_2016"
+          }
+        ],
+        "text": "obtain info for prj_road_xing_2016"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 15,
+            "value": "sbiasr101"
+          }
+        ],
+        "text": "find report of sbiasr101 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "database",
+            "start": 14,
+            "value": "sbxutc042"
+          }
+        ],
+        "text": "get status of sbxutc042 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "database",
+            "start": 12,
+            "value": "usr_idma067"
+          }
+        ],
+        "text": "get data on usr_idma067 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "database",
+            "start": 5,
+            "value": "sbxcoz869"
+          }
+        ],
+        "text": "find sbxcoz869 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "database",
+            "start": 9,
+            "value": "prj_road_xing_2017"
+          }
+        ],
+        "text": "retrieve prj_road_xing_2017 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "database",
+            "start": 14,
+            "value": "prj_svc_perf"
+          }
+        ],
+        "text": "show info for prj_svc_perf"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "database",
+            "start": 6,
+            "value": "prj_prxy_gov"
+          }
+        ],
+        "text": "query prj_prxy_gov database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "database",
+            "start": 17,
+            "value": "usr_dhdp001"
+          }
+        ],
+        "text": "give a report on usr_dhdp001"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "database",
+            "start": 15,
+            "value": "prj_web_logs"
+          }
+        ],
+        "text": "show tables in prj_web_logs dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "database",
+            "start": 14,
+            "value": "prj_mrkt_lead"
+          }
+        ],
+        "text": "query info on prj_mrkt_lead db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "database",
+            "start": 7,
+            "value": "prj_stim_anal"
+          }
+        ],
+        "text": "search prj_stim_anal database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "database",
+            "start": 7,
+            "value": "usr_xsat835"
+          }
+        ],
+        "text": "lookup usr_xsat835 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "database",
+            "start": 4,
+            "value": "prhdpstat"
+          }
+        ],
+        "text": "get prhdpstat"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_myuprr"
+          }
+        ],
+        "text": "prj_myuprr db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "database",
+            "start": 15,
+            "value": "prj_road_xing"
+          }
+        ],
+        "text": "find report of prj_road_xing db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "database",
+            "start": 17,
+            "value": "ebidvt80"
+          }
+        ],
+        "text": "retrieve info on ebidvt80"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "database",
+            "start": 5,
+            "value": "dlaeidvp01"
+          }
+        ],
+        "text": "find dlaeidvp01 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "database",
+            "start": 4,
+            "value": "usr_igen306"
+          }
+        ],
+        "text": "get usr_igen306 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "database",
+            "start": 15,
+            "value": "proj_oss"
+          }
+        ],
+        "text": "list tables in proj_oss database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 15,
+            "value": "sbctxd004"
+          }
+        ],
+        "text": "show tables in sbctxd004 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "database",
+            "start": 12,
+            "value": "fail_issue1"
+          }
+        ],
+        "text": "get data on fail_issue1 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "database",
+            "start": 16,
+            "value": "presb"
+          }
+        ],
+        "text": "obtain info for presb"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "database",
+            "start": 14,
+            "value": "sbosaf055"
+          }
+        ],
+        "text": "tell me about sbosaf055 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "database",
+            "start": 9,
+            "value": "prj_road_xing_2015"
+          }
+        ],
+        "text": "retrieve prj_road_xing_2015"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "database",
+            "start": 7,
+            "value": "ebidvp80"
+          }
+        ],
+        "text": "obtain ebidvp80 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "database",
+            "start": 14,
+            "value": "prptc"
+          }
+        ],
+        "text": "query info on prptc database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "database",
+            "start": 17,
+            "value": "prj_road_xing_2018"
+          }
+        ],
+        "text": "give a report on prj_road_xing_2018 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "database",
+            "start": 15,
+            "value": "prwisp"
+          }
+        ],
+        "text": "lookup data on prwisp db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "database",
+            "start": 7,
+            "value": "sbigen615"
+          }
+        ],
+        "text": "lookup sbigen615 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "database",
+            "start": 14,
+            "value": "prmci"
+          }
+        ],
+        "text": "show info for prmci"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 19,
+            "value": "prspi"
+          }
+        ],
+        "text": "what tables are in prspi database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "database",
+            "start": 6,
+            "value": "usr_ctxd234"
+          }
+        ],
+        "text": "query usr_ctxd234 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "database",
+            "start": 7,
+            "value": "default"
+          }
+        ],
+        "text": "search default db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "database",
+            "start": 14,
+            "value": "prj_oss"
+          }
+        ],
+        "text": "get status of prj_oss"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "database",
+            "start": 19,
+            "value": "sbosaf003"
+          }
+        ],
+        "text": "what tables are in sbosaf003 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "database",
+            "start": 7,
+            "value": "sbaaud090"
+          }
+        ],
+        "text": "lookup sbaaud090 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 14,
+            "value": "prj_upp210"
+          }
+        ],
+        "text": "get status of prj_upp210 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "database",
+            "start": 12,
+            "value": "preta"
+          }
+        ],
+        "text": "get data on preta"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "database",
+            "start": 14,
+            "value": "prbosptc"
+          }
+        ],
+        "text": "tell me about prbosptc database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "database",
+            "start": 15,
+            "value": "edw_baddvp01"
+          }
+        ],
+        "text": "list tables in edw_baddvp01"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "database",
+            "start": 14,
+            "value": "gamonitor"
+          }
+        ],
+        "text": "show info for gamonitor db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "database",
+            "start": 7,
+            "value": "sbiifs044"
+          }
+        ],
+        "text": "obtain sbiifs044 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "database",
+            "start": 15,
+            "value": "usr_igen294"
+          }
+        ],
+        "text": "find report of usr_igen294 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "database",
+            "start": 5,
+            "value": "prpws"
+          }
+        ],
+        "text": "find prpws"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 15,
+            "value": "sbosaf057"
+          }
+        ],
+        "text": "lookup data on sbosaf057 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "database",
+            "start": 6,
+            "value": "prj_naf"
+          }
+        ],
+        "text": "query prj_naf dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "database",
+            "start": 17,
+            "value": "prj_dblogs"
+          }
+        ],
+        "text": "give a report on prj_dblogs database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "database",
+            "start": 7,
+            "value": "usr_igen7779"
+          }
+        ],
+        "text": "search usr_igen7779"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "database",
+            "start": 17,
+            "value": "prj_defects"
+          }
+        ],
+        "text": "retrieve info on prj_defects db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "database",
+            "start": 16,
+            "value": "ebidvt80"
+          }
+        ],
+        "text": "obtain info for ebidvt80 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "database",
+            "start": 0,
+            "value": "usr_xsat835"
+          }
+        ],
+        "text": "usr_xsat835 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "database",
+            "start": 0,
+            "value": "sbfpan320"
+          }
+        ],
+        "text": "sbfpan320 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "database",
+            "start": 0,
+            "value": "dhdp400test"
+          }
+        ],
+        "text": "dhdp400test db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "database",
+            "start": 0,
+            "value": "ebidvt80"
+          }
+        ],
+        "text": "ebidvt80 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "database",
+            "start": 0,
+            "value": "prhdpstat"
+          }
+        ],
+        "text": "prhdpstat database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "database",
+            "start": 0,
+            "value": "priem"
+          }
+        ],
+        "text": "priem dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "database",
+            "start": 0,
+            "value": "prenforcer"
+          }
+        ],
+        "text": "prenforcer dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "database",
+            "start": 0,
+            "value": "prptc"
+          }
+        ],
+        "text": "prptc db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "database",
+            "start": 0,
+            "value": "sbigen566"
+          }
+        ],
+        "text": "sbigen566 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "database",
+            "start": 0,
+            "value": "predr"
+          }
+        ],
+        "text": "predr database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_stim_anal"
+          }
+        ],
+        "text": "prj_stim_anal dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "database",
+            "start": 0,
+            "value": "preta"
+          }
+        ],
+        "text": "preta db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "database",
+            "start": 0,
+            "value": "sbxcon256"
+          }
+        ],
+        "text": "sbxcon256 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "database",
+            "start": 0,
+            "value": "presbcore"
+          }
+        ],
+        "text": "presbcore db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "database",
+            "start": 0,
+            "value": "usr_igen520"
+          }
+        ],
+        "text": "usr_igen520 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_bos"
+          }
+        ],
+        "text": "prj_bos db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "database",
+            "start": 0,
+            "value": "proj_oss"
+          }
+        ],
+        "text": "proj_oss dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_db_metadata"
+          }
+        ],
+        "text": "prj_db_metadata database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_railinc"
+          }
+        ],
+        "text": "prj_railinc dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "database",
+            "start": 0,
+            "value": "ebidvp80"
+          }
+        ],
+        "text": "ebidvp80 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "database",
+            "start": 0,
+            "value": "fail_issue1"
+          }
+        ],
+        "text": "fail_issue1 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_dblogs"
+          }
+        ],
+        "text": "prj_dblogs database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_road_xing_2017"
+          }
+        ],
+        "text": "prj_road_xing_2017 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_eqd_logs"
+          }
+        ],
+        "text": "prj_eqd_logs dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "database",
+            "start": 0,
+            "value": "failover_issue"
+          }
+        ],
+        "text": "failover_issue database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "database",
+            "start": 0,
+            "value": "usr_idma078"
+          }
+        ],
+        "text": "usr_idma078 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_road_xing_2015"
+          }
+        ],
+        "text": "prj_road_xing_2015 db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_tdperf"
+          }
+        ],
+        "text": "prj_tdperf database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_ems_logs"
+          }
+        ],
+        "text": "prj_ems_logs dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "database",
+            "start": 0,
+            "value": "prrsbi"
+          }
+        ],
+        "text": "prrsbi db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_obi_perf"
+          }
+        ],
+        "text": "prj_obi_perf db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "database",
+            "start": 0,
+            "value": "sbosaf057"
+          }
+        ],
+        "text": "sbosaf057 dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "database",
+            "start": 0,
+            "value": "sbosda187"
+          }
+        ],
+        "text": "sbosda187 database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_mrkt_lead"
+          }
+        ],
+        "text": "prj_mrkt_lead dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_svc_perf"
+          }
+        ],
+        "text": "prj_svc_perf database"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 5,
+            "entity": "database",
+            "start": 0,
+            "value": "prpws"
+          }
+        ],
+        "text": "prpws db"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "database",
+            "start": 0,
+            "value": "prj_web_logs"
+          }
+        ],
+        "text": "prj_web_logs dbs"
+      },
+      {
+        "intent": "database_specifics_inform",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "database",
+            "start": 0,
+            "value": "usr_iots193"
+          }
+        ],
+        "text": "usr_iots193 database"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "cluster",
+        "pattern": "\b(?i)([A-Z]H[A-Z]{2}[0-9]{3})\b"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "database",
+        "synonyms": [
+          "db",
+          "databases",
+          "dbs"
+        ]
+      },
+      {
+        "value": "namenode",
+        "synonyms": [
+          "name node"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+%[database_specifics_request](48)
+    ~[find?] ~[database] ~[specifics]
+
+~[find]
+    find
+    search
+    lookup
+    get
+    query
+    retrieve
+    obtain
+
+~[database]
+    database
+
+~[specifics]
+    specifics
+    info
+    data
+    report
+    details
+    particulars

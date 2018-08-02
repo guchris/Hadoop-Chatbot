@@ -1,0 +1,123 @@
+action_factory: null
+action_names:
+- utter_default
+- utter_help
+- utter_greet
+- utter_bye
+- utter_confirmation
+- utter_invalid
+- utter_ask_cluster
+- utter_ask_cluster_specifics
+- utter_ask_database
+- utter_db_prompt
+- action_get_hadoop_production_capacity
+- action_get_request
+- action_get_cluster_statuses
+- action_get_emptiest_cluster
+- action_get_fullest_cluster
+- action_get_cluster_status
+- action_get_cluster_nn_started
+- action_get_cluster_url
+- action_get_databases
+- action_get_database_specifics
+actions:
+- utter_default
+- utter_help
+- utter_greet
+- utter_bye
+- utter_confirmation
+- utter_invalid
+- utter_ask_cluster
+- utter_ask_cluster_specifics
+- utter_ask_database
+- utter_db_prompt
+- actions.ActionGetHadoopProductionCapacity
+- actions.ActionGetRequest
+- actions.ActionGetClusterStatuses
+- actions.ActionGetEmptiestCluster
+- actions.ActionGetFullestCluster
+- actions.ActionGetClusterStatus
+- actions.ActionGetClusterNNStarted
+- actions.ActionGetClusterURL
+- actions.ActionGetDatabases
+- actions.ActionGetDatabaseSpecifics
+config:
+  store_entities_as_slots: true
+entities:
+- cluster
+- database
+- request
+intents:
+- default
+- help
+- greet
+- bye
+- hadoop_production_capacity_request
+- cluster_statuses_request
+- cluster_emptiest_request
+- cluster_fullest_request
+- cluster_status_request
+- cluster_status_inform
+- cluster_nn_started_request
+- cluster_nn_started_inform
+- cluster_url_request
+- cluster_url_inform
+- databases_request
+- database_specifics_request
+- database_specifics_inform
+slots:
+  cluster:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  database:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  is_valid:
+    initial_value: null
+    type: rasa_core.slots.BooleanSlot
+  request:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_cluster:
+  - text: Which cluster would you like to lookup?
+  utter_ask_cluster_specifics:
+  - buttons:
+    - payload: status of {cluster}
+      title: Status
+    - payload: how long has {cluster} namenode been available
+      title: NNStarted
+    - payload: what is {cluster} url
+      title: URL
+    text: Cluster Specifics
+  utter_ask_database:
+  - text: Which database would you like to lookup?
+  utter_bye:
+  - text: Bye!
+  - text: Cya!
+  - text: Goodbye!
+  utter_confirmation:
+  - text: Good
+  utter_db_prompt:
+  - buttons:
+    - payload: get database specifics
+      title: Database Specifics
+    text: Want more information?
+  utter_default:
+  - text: Can you rephrase that?
+  - text: I didn't understand that, can you rephrase?
+  - text: Invalid request. Please try again.
+  - text: Sorry, I can't answer this question.
+  utter_greet:
+  - text: Hi! How can I help you?
+  - text: Welcome to the Hadoop Chatbot! Ask away!
+  - text: Hello! What would you like to know?
+  utter_help:
+  - text: I can help you with clusters and databases!
+  - text: I can find information on clusters and databases!
+  - text: Try, "xhdp001 cluster".
+  - text: Try, "what cluster has the most space available".
+  - text: Try, "all databases".
+  utter_invalid:
+  - text: Invalid. Try again.
+topics: []

@@ -1,0 +1,99 @@
+1,Default Hive database,hdfs://nnfailover/apps/hive/warehouse,default,\N,\N
+2,\N,hdfs://nnfailover/apps/hive/warehouse/prj_svc_perf.db,prj_svc_perf,\N,\N
+4,\N,hdfs://nnfailover/apps/hive/warehouse/prj_mnfm_perf.db,prj_mnfm_perf,\N,\N
+7,\N,hdfs://nnfailover/apps/hive/warehouse/prj_web_logs.db,prj_web_logs,\N,\N
+8,\N,hdfs://nnfailover/apps/hive/warehouse/prj_road_xing.db,prj_road_xing,\N,\N
+10,\N,hdfs://nnfailover/apps/hive/warehouse/usr_igen306.db,usr_igen306,\N,\N
+11,\N,hdfs://nnfailover/apps/hive/warehouse/edw_baddvp01.db,edw_baddvp01,\N,\N
+12,John Papproth sandbox,hdfs://nnfailover/apps/hive/warehouse/usr_ctxd234.db,usr_ctxd234,\N,\N
+13,Decision Analytics Group sandbox,hdfs://nnfailover/apps/hive/warehouse/prj_dag.db,prj_dag,\N,\N
+16,Eric's Database,hdfs://nnfailover/apps/hive/warehouse/usr_iots193.db,usr_iots193,\N,\N
+18,Test Database for dhdp001,hdfs://nnfailover/apps/hive/warehouse/usr_dhdp001.db,usr_dhdp001,\N,\N
+19,Market Lead Generation,hdfs://nnfailover/apps/hive/warehouse/prj_mrkt_lead.db,prj_mrkt_lead,\N,\N
+20,Teradata Query Performance Data,hdfs://nnfailover/apps/hive/warehouse/prj_tdperf.db,prj_tdperf,\N,\N
+21,\N,hdfs://nnfailover/apps/hive/warehouse/usr_igen723.db,usr_igen723,\N,\N
+22,Howard,hdfs://nnfailover/apps/hive/warehouse/usr_idma077.db,usr_idma077,\N,\N
+23,Ryan Brink Database,hdfs://nnfailover/apps/hive/warehouse/usr_igen890.db,usr_igen890,\N,\N
+25,Ulfur's practice Hadoop database,hdfs://nnfailover/apps/hive/warehouse/usr_idma078.db,usr_idma078,\N,\N
+27,Ethan's db,hdfs://nnfailover/apps/hive/warehouse/usr_idma076.db,usr_idma076,\N,\N
+28,NAFD - North American Freight Database,hdfs://nnfailover/apps/hive/warehouse/prj_naf.db,prj_naf,\N,\N
+29,Austin J Brown,hdfs://nnfailover/apps/hive/warehouse/usr_igen058.db,usr_igen058,\N,\N
+30,Jacob Kruse,hdfs://nnfailover/apps/hive/warehouse/usr_igen910.db,usr_igen910,\N,\N
+31,Oracle BI Performance Capture,hdfs://nnfailover/apps/hive/warehouse/prj_obi_perf.db,prj_obi_perf,\N,\N
+32,Proxy Governor Logs ,hdfs://nnfailover/apps/hive/warehouse/prj_prxy_gov.db,prj_prxy_gov,\N,\N
+34,Sentiment Analysis,hdfs://nnfailover/apps/hive/warehouse/prj_stim_anal.db,prj_stim_anal,\N,\N
+36,\N,hdfs://nnfailover/apps/hive/warehouse/prj_eqd_logs.db,prj_eqd_logs,\N,\N
+37,\N,hdfs://nnfailover/apps/hive/warehouse/prj_edr.db,prj_edr,\N,\N
+45,EMS Logs,hdfs://nnfailover/apps/hive/warehouse/prj_ems_logs.db,prj_ems_logs,\N,\N
+46,\N,hdfs://nnfailover/apps/hive/warehouse/usr_idma075.db,usr_idma075,USER,idma075
+47,\N,hdfs://nnfailover/apps/hive/warehouse/prj_road_xing_2015.db,prj_road_xing_2015,USER,igen723
+48,\N,hdfs://nnfailover/apps/hive/warehouse/failover_issue.db,failover_issue,USER,dhdp100
+49,\N,hdfs://nnfailover/apps/hive/warehouse/fail_issue.db,fail_issue,USER,dhdp100
+51,\N,hdfs://nnfailover/apps/hive/warehouse/fail_issue1.db,fail_issue1,USER,dhdp100
+52,Rail Lnc Data,hdfs://nnfailover/apps/hive/warehouse/prj_railinc.db,prj_railinc,USER,dhdp001
+53,\N,hdfs://nnfailover/apps/hive/warehouse/usr_igen777.db,usr_igen777,USER,igen723
+54,\N,hdfs://nnfailover/apps/hive/warehouse/usr_igen7779.db,usr_igen7779,USER,igen723
+56,Test Data for Doerr,hdfs://nnfailover/apps/hive/warehouse/prj_upp210.db,prj_upp210,USER,dhdp100
+61,\N,hdfs://nnfailover/apps/hive/warehouse/prj_dblogs.db,prj_dblogs,USER,dhdp001
+62,\N,hdfs://nnfailover/apps/hive/warehouse/prj_bos.db,prj_bos,USER,dhdp001
+63,\N,hdfs://nnfailover/apps/hive/warehouse/prj_performance.db,prj_performance,USER,igen723
+71,MyUPRR Mobile,hdfs://nnfailover/apps/hive/warehouse/prj_myuprr.db,prj_myuprr,USER,dhdp100
+72,\N,hdfs://nnfailover/apps/hive/warehouse/proj_oss.db,proj_oss,USER,dhdp001
+73,\N,hdfs://nnfailover/apps/hive/warehouse/prj_oss.db,prj_oss,USER,dhdp001
+75,Sandbox for Kyle Dyer,hdfs://nnfailover/apps/hive/warehouse/usr_igen294.db,usr_igen294,USER,igen294
+76,\N,hdfs://nnfailover/apps/hive/warehouse/xtst_prj_edr.db,xtst_prj_edr,USER,dhdp100
+77,\N,hdfs://nnfailover/apps/hive/warehouse/prj_db_metadata.db,prj_db_metadata,USER,dhdp001
+78,\N,hdfs://nnfailover/apps/hive/warehouse/prj_defects.db,prj_defects,USER,igen723
+80,\N,hdfs://nnfailover/apps/hive/warehouse/prj_defects2.db,prj_defects2,USER,igen723
+81,\N,hdfs://nnfailover/apps/hive/warehouse/prbosptc.db,prbosptc,USER,dhdp100
+94,\N,hdfs://nnfailover/apps/hive/warehouse/gadbmeta.db,gadbmeta,USER,dhdp001
+119,\N,hdfs://nnfailover/apps/hive/warehouse/gamonitor.db,gamonitor,USER,dhdp400
+123,\N,hdfs://nnfailover/apps/hive/warehouse/recoverydb.db,recoverydb,USER,iasr190
+126,\N,hdfs://nnfailover/apps/hive/warehouse/presbcore.db,presbcore,USER,dhdp100
+127,Project for MCI,hdfs://nnfailover/apps/hive/warehouse/prmci.db,prmci,USER,dhdp400
+128,\N,hdfs://nnfailover/apps/hive/warehouse/prebzmobile.db,prebzmobile,USER,dhdp400
+129,\N,hdfs://nnfailover/apps/hive/warehouse/prftm.db,prftm,USER,dhdp400
+130,Brian Bohl,hdfs://nnfailover/apps/hive/warehouse/sbxutc042.db,sbxutc042,USER,dhdp100
+131,Greg Alexander,hdfs://nnfailover/apps/hive/warehouse/sbxcon256.db,sbxcon256,USER,dhdp100
+132,Gregg Dieckhaus,hdfs://nnfailover/apps/hive/warehouse/sbxcoz869.db,sbxcoz869,USER,dhdp100
+133,Mike Winebright,hdfs://nnfailover/apps/hive/warehouse/sbctxd004.db,sbctxd004,USER,dhdp100
+134,Chloe Ng,hdfs://nnfailover/apps/hive/warehouse/sbiasr101.db,sbiasr101,USER,dhdp100
+135,Matthew Lofdahl,hdfs://nnfailover/apps/hive/warehouse/sbaaud004.db,sbaaud004,USER,dhdp100
+136,Thomas Creighton,hdfs://nnfailover/apps/hive/warehouse/sbaaud090.db,sbaaud090,USER,dhdp100
+137,Nathan Lyle,hdfs://nnfailover/apps/hive/warehouse/sbfpan320.db,sbfpan320,USER,dhdp100
+138,Frank Lilly,hdfs://nnfailover/apps/hive/warehouse/sbiots021.db,sbiots021,USER,dhdp100
+139,Mitchell Miller,hdfs://nnfailover/apps/hive/warehouse/sbiifs044.db,sbiifs044,USER,dhdp100
+140,Zachary Mcfarland,hdfs://nnfailover/apps/hive/warehouse/sbigen615.db,sbigen615,USER,dhdp100
+141,\N,hdfs://nnfailover/apps/hive/warehouse/priem.db,priem,USER,dhdp001
+142,\N,hdfs://nnfailover/apps/hive/warehouse/prj_road_xing_2016.db,prj_road_xing_2016,USER,igen723
+143,\N,hdfs://nnfailover/apps/hive/warehouse/sbclass.db,sbclass,USER,dhdp001
+144,Doug's Database,hdfs://nnfailover/apps/hive/warehouse/sbosaf003.db,sbosaf003,USER,iots193
+145,Rudy's Database,hdfs://nnfailover/apps/hive/warehouse/sbosaf057.db,sbosaf057,USER,iots193
+146,Lucas's Database,hdfs://nnfailover/apps/hive/warehouse/sbosaf055.db,sbosaf055,USER,iots193
+147,Mahesh's Database,hdfs://nnfailover/apps/hive/warehouse/sbigen566.db,sbigen566,USER,iots193
+148,Paul's Database,hdfs://nnfailover/apps/hive/warehouse/sbosda187.db,sbosda187,USER,iots193
+151,\N,hdfs://nnfailover/apps/hive/warehouse/usr_xsat835.db,usr_xsat835,USER,xsat835
+156,Bill Wax Database,hdfs://nnfailover/apps/hive/warehouse/usr_igen520.db,usr_igen520,USER,iots193
+161,\N,hdfs://nnfailover/apps/hive/warehouse/prwisp.db,prwisp,USER,iots193
+166,\N,hdfs://nnfailover/apps/hive/warehouse/gaweblogs.db,gaweblogs,USER,iots193
+167,\N,hdfs://nnfailover/apps/hive/warehouse/prdoc.db,prdoc,USER,dhdp100
+171,Project for Crew Effciency,hdfs://nnfailover/apps/hive/warehouse/prcreweff.db,prcreweff,USER,dhdp400
+172,EBI Train Crew Database,hdfs://nnfailover/apps/hive/warehouse/ebidvp80.db,ebidvp80,USER,dhdp400
+173,\N,hdfs://nnfailover/apps/hive/warehouse/ebidvt80.db,ebidvt80,USER,iots193
+176,Hadoop Stats,hdfs://nnfailover/apps/hive/warehouse/prhdpstat.db,prhdpstat,USER,iots193
+181,\N,hdfs://nnfailover/apps/hive/warehouse/prede.db,prede,USER,dhdp400
+186,\N,hdfs://nnfailover/apps/hive/warehouse/prj_road_xing_2017.db,prj_road_xing_2017,USER,igen723
+188,\N,hdfs://nnfailover/apps/hive/warehouse/prj_road_xing_2018.db,prj_road_xing_2018,USER,igen723
+191,\N,hdfs://nnfailover/apps/hive/warehouse/dhdp400test.db,dhdp400test,USER,dhdp400
+196,\N,hdfs://nnfailover/apps/hive/warehouse/prpws.db,prpws,USER,dhdp100
+201,\N,hdfs://nnfailover/apps/hive/warehouse/prrsbi.db,prrsbi,USER,dhdp100
+202,\N,hdfs://nnfailover/apps/hive/warehouse/predr.db,predr,USER,dhdp400
+206,\N,hdfs://nnfailover/apps/hive/warehouse/prptc.db,prptc,USER,xprk411
+211,ETA Project,hdfs://nnfailover/apps/hive/warehouse/preta.db,preta,USER,iots193
+219,\N,hdfs://nnfailover/tmp/hiveReplication/test,test,USER,dhdp100
+226,\N,hdfs://nnfailover/apps/hive/warehouse/prenforcer.db,prenforcer,USER,dhdp100
+231,\N,hdfs://nnfailover/apps/hive/warehouse/pramo.db,pramo,USER,dhdp100
+236,\N,hdfs://nnfailover/apps/hive/warehouse/presb.db,presb,USER,dhdp100
+241,\N,hdfs://nnfailover/apps/hive/warehouse/prspi.db,prspi,USER,dhdp100
+246,\N,hdfs://nnfailover/apps/hive/warehouse/usr_idma067.db,usr_idma067,USER,dhdp001
+251,\N,hdfs://nnfailover/apps/hive/warehouse/dlaeidvp01.db,dlaeidvp01,USER,dhdp001

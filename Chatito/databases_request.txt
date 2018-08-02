@@ -1,0 +1,24 @@
+%[databases_request](50)
+    ~[find?] ~[all] ~[databases]
+
+~[find]
+    find
+    search
+    lookup
+    get
+    query
+    retrieve
+    obtain
+
+~[all]
+    all
+    entire
+    complete
+    whole
+    total
+    overall
+    comprehensive
+    aggregate
+
+~[databases]
+    databases

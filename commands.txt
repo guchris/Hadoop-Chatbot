@@ -1,0 +1,6 @@
+# Run chatbot
+python -m rasa_core.run -d models/current/dialogue -u models/current/nlu
+
+# Train chatbot
+python -m rasa_nlu.train -c nlu_model_config.yml -d data/nlu_data.json -o models --fixed_model_name nlu --project current --verbose
+python -m rasa_core.train -d domain.yml -s data/stories.md -o models/current/dialogue --epochs 200

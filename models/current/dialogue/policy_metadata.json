@@ -1,0 +1,74 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "database",
+        "request",
+        "cluster"
+      ]
+    },
+    "action_get_cluster_url": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "utter_ask_cluster_specifics": {
+      "slots": []
+    },
+    "action_get_cluster_status": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "action_restart": {
+      "slots": []
+    },
+    "utter_db_prompt": {
+      "slots": []
+    },
+    "utter_invalid": {
+      "slots": []
+    },
+    "action_get_database_specifics": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "action_get_cluster_nn_started": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "action_get_hadoop_production_capacity": {
+      "slots": []
+    },
+    "action_get_cluster_statuses": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "action_get_request": {
+      "slots": []
+    },
+    "action_get_fullest_cluster": {
+      "slots": []
+    },
+    "utter_help": {
+      "slots": []
+    },
+    "action_get_emptiest_cluster": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.9.4",
+  "max_histories": [
+    3,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

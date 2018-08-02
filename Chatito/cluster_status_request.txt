@@ -1,0 +1,24 @@
+%[cluster_status_request](50)
+    ~[find?] ~[status?] ~[cluster]
+
+~[find]
+    find
+    search
+    lookup
+    tell me about
+    give me
+    get
+    what is the
+    get
+    query
+    retrieve
+    obtain
+
+~[status]
+    status of
+    info on
+    health of
+    data on
+
+~[cluster]
+    cluster

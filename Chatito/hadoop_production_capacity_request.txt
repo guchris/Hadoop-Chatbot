@@ -1,0 +1,47 @@
+=== 1 ===
+%[hadoop_production_capacity_request](24)
+    ~[hadoop] ~[all?] ~[production] ~[capacity]
+
+~[hadoop]
+    hadoop
+
+~[all]
+    all
+    entire
+    total
+    complete
+    full
+    whole
+    overall
+
+~[production]
+    production
+
+~[capacity]
+    capacity
+    size
+    magnitude
+
+=== 2 ===
+%[hadoop_production_capacity_request](24)
+    ~[all?] ~[production] ~[capacity] ~[hadoop]
+
+~[all]
+    all
+    entire
+    total
+    complete
+    full
+    whole
+    overall
+
+~[production]
+    production
+
+~[capacity]
+    capacity
+    size
+    magnitude
+
+~[hadoop]
+    of hadoop

@@ -1,0 +1,4 @@
+#language: "en"
+language: "C:\\Python36\\Lib\\site-packages\\en_core_web_md\\en_core_web_md-2.0.0"
+
+pipeline: "spacy_sklearn"

@@ -1,0 +1,34 @@
+%[cluster_status_inform](100)
+    ~[find?] ~[status?] @[cluster] ~[cluster?]
+
+~[find]
+    find
+    search
+    lookup
+    tell me about
+    give me
+    get
+    what is the
+    get
+    query
+    retrieve
+    obtain
+
+~[status]
+    status of
+    info on
+    health of
+    data on
+
+@[cluster]
+    phdp001
+    bhdp001
+    phba001
+    phdp001
+    phdp002
+    xhba001
+    xhdp001
+    xhdp002
+
+~[cluster]
+    cluster

@@ -1,0 +1,31 @@
+%[clusters_request](50)
+    ~[find?] ~[status?] ~[all] ~[clusters]
+
+~[find]
+    find
+    search
+    lookup
+    get
+    query
+    retrieve
+    obtain
+
+~[status]
+    status of
+    info on
+    health of
+    data on
+    report of
+
+~[all]
+    all
+    entire
+    complete
+    whole
+    total
+    overall
+    comprehensive
+    aggregate
+
+~[clusters]
+    clusters

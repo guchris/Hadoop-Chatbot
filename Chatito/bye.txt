@@ -1,0 +1,17 @@
+%[bye](14)
+    ~[bye?]
+
+~[bye]
+    bye
+    goodbye
+    stop
+    end
+    farewell
+    cya
+    have a good one
+    cya later
+    adios
+    adieu
+    cheerio
+    so long
+    ciao

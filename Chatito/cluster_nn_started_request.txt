@@ -1,0 +1,28 @@
+%[cluster_nn_started_request](50)
+    ~[intro?] ~[namenode] ~[been?] ~[available]
+
+~[intro]
+    how long has
+    when did
+    uptime of
+
+~[namenode]
+    namenode
+    NameNode
+    name node
+    Name Node
+
+~[been]
+    been
+
+~[available]
+    available
+    online
+    active
+    accessible
+    free
+    alive
+    uptime
+    operating
+    running
+    functioning

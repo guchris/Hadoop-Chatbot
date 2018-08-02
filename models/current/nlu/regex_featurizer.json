@@ -1,0 +1,6 @@
+[
+    {
+        "name": "cluster",
+        "pattern": "\b(?i)([A-Z]H[A-Z]{2}[0-9]{3})\b"
+    }
+]

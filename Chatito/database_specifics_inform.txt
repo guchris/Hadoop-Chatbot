@@ -1,0 +1,130 @@
+%[database_specifics_inform](200)
+    ~[get?] @[database] ~[database?]
+
+~[get]
+    get
+    find
+    search
+    lookup
+    query
+    retrieve
+    obtain
+    get status of
+    retrieve info on
+    lookup data on
+    query info on
+    get data on
+    give a report on
+    obtain info for
+    find report of
+    tell me about
+    list tables in
+    what tables are in
+    show info for
+    show tables in
+
+@[database]
+    default
+    prj_svc_perf
+    prj_mnfm_perf
+    prj_web_logs
+    prj_road_xing
+    usr_igen306
+    edw_baddvp01
+    usr_ctxd234
+    prj_dag
+    usr_iots193
+    usr_dhdp001
+    prj_mrkt_lead
+    prj_tdperf
+    usr_igen723
+    usr_idma077
+    usr_igen890
+    usr_idma078
+    usr_idma076
+    prj_naf
+    usr_igen058
+    usr_igen910
+    prj_obi_perf
+    prj_prxy_gov
+    prj_stim_anal
+    prj_eqd_logs
+    prj_edr
+    prj_ems_logs
+    usr_idma075
+    prj_road_xing_2015
+    failover_issue
+    fail_issue
+    fail_issue1
+    prj_railinc
+    usr_igen777
+    usr_igen7779
+    prj_upp210
+    prj_dblogs
+    prj_bos
+    prj_performance
+    prj_myuprr
+    proj_oss
+    prj_oss
+    usr_igen294
+    xtst_prj_edr
+    prj_db_metadata
+    prj_defects
+    prj_defects2
+    prbosptc
+    gadbmeta
+    gamonitor
+    recoverydb
+    presbcore
+    prmci
+    prebzmobile
+    prftm
+    sbxutc042
+    sbxcon256
+    sbxcoz869
+    sbctxd004
+    sbiasr101
+    sbaaud004
+    sbaaud090
+    sbfpan320
+    sbiots021
+    sbiifs044
+    sbigen615
+    priem
+    prj_road_xing_2016
+    sbclass
+    sbosaf003
+    sbosaf057
+    sbosaf055
+    sbigen566
+    sbosda187
+    usr_xsat835
+    usr_igen520
+    prwisp
+    gaweblogs
+    prdoc
+    prcreweff
+    ebidvp80
+    ebidvt80
+    prhdpstat
+    prede
+    prj_road_xing_2017
+    prj_road_xing_2018
+    dhdp400test
+    prpws
+    prrsbi
+    predr
+    prptc
+    preta
+    test
+    prenforcer
+    pramo
+    presb
+    prspi
+    usr_idma067
+    dlaeidvp01
+
+~[database]
+    database
+    db
+    dbs

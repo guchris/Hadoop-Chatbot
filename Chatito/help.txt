@@ -1,0 +1,18 @@
+%[help](15)
+    ~[help?]
+
+~[help]
+    help
+    assist
+    i need help
+    can you help me
+    support
+    help me
+    how do you work
+    what can I do
+    what are your functions
+    options
+    list commands
+    what commands can i use
+    guidance
+    service
