@@ -15,9 +15,13 @@ If you already have rasa_core installed and want to udpate it, run:
 `pip install -U rasa_core`
 
 If you want to use the bleeding edge version of Rasa, use github + setup.py:
+
 `git clone https://github.com/RasaHQ/rasa_core.git`
+
 `cd rasa_core`
+
 `pip install -r requirements.txt`
+
 `pip install -e .`
 
 ## Add Natural Language Understanding
@@ -27,9 +31,13 @@ We used Rasa NLU for intent classification & entity extraction. To get it, run
 `pip install rasa_nlu[tensorflow]`
 
 If you want to use the bleeding edge verion, use github + setup.py:
+
 `git clone https://github.com/RasaHQ/rasa_nlu.git`
+
 `cd rasa_nlu`
+
 `pip install -r requirements.txt`
+
 `pip install -e .`
 
 ## Setup the Backend
@@ -37,8 +45,11 @@ If you want to use the bleeding edge verion, use github + setup.py:
 The processing pipeline we used with rasa NLU is a combination of spaCy and scikit-learn.
 
 Installing spacy just requires:
+
 `pip install rasa_nlu[spacy]`
+
 `python -m spacy download en_core_web_md`
+
 `python -m spacy link en_core_web_md en`
 
 ## Clone Repo
